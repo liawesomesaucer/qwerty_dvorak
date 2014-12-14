@@ -1,0 +1,42 @@
+html, body, div {
+	margin:0px;
+	padding:0px;
+}
+
+html {
+	background: url(ducky.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-color:#cccccc;
+	font: 16px/30px Lucida Console, sans-serif;
+	font-color: #ffffff;
+}
+
+h1 {
+	font: 36px/30px Centaur;
+}
+
+#output {
+	margin:auto;
+	border-style:solid;
+	border-width:1px;
+	padding:2px;
+	max-width:500px;
+	min-height:30px;
+}
+
+.center {
+	text-align:center;
+	margin:auto;
+	padding:1%;
+	float:center;
+	width:650px;
+	min-height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index:100;
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+}
